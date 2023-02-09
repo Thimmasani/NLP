@@ -9,7 +9,7 @@ from nltk.tokenize import TweetTokenizer   # module for tokenizing strings
 class preprocess:
   def __init__(self):
     pass
-  def process_tweet(self,tweet):
+  def process_tweet(tweet):
     """Process tweet function.
     Input:
         tweet: a string containing a tweet
